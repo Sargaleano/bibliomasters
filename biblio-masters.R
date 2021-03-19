@@ -1,8 +1,17 @@
 ## Revealing the research landscape of Master’s degrees via bibliometric analyses ##
-## Authors: Sergio A. Rojas and Nathalia Chaparro
+## Authors:  Sergio A. Rojas and Nathalia Chaparro
 ## R script for the results reported in the above paper. 
 ## This script loads the data, runs the analyses, and generates and saves the plots
 ## (c) March, 2021
+
+# ---------------------------------------------------------------------- #
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as
+# published by the Free Software Foundation, either version 3 of the
+# License, or (at your option) any later version. 
+# See license at: https://www.gnu.org/licenses/gpl.txt
+# ---------------------------------------------------------------------- #
+
 
 ## Library installation ##
 # If "bibliometrix" not recognised because of clash of versions, try installing first:
@@ -22,7 +31,7 @@ setwd("./data")
 
 
 ################################### Lists for text cleanup and preprocessing #####################################
-stopwords <- c("determinar","principalmente","variable","mejorar","medio","evaluar","aplicacion","herramienta",
+stopwords <- c("empleando","determinar","principalmente","variable","mejorar","medio","evaluar","aplicacion","herramienta",
               "modelo","investigacion","computador","sistema","metodo","condiciones","fase","identificar",
               "conceptos","propuesto","area","durante","actual","finalmente","alto","pretende","elementos",
               "documento","realizo","cuenta","principales","manera","propone","enfoque","aumentar","grado",
